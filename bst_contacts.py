@@ -1,4 +1,4 @@
-# bst_contacts.py - Enhanced Version
+# bst_contacts.py 
 
 class BSTNode:
     """One node of the Binary Search Tree."""
@@ -37,7 +37,6 @@ class BST:
         elif key_lower > node_key_lower:
             node.right, is_new = self._insert(node.right, key, value)
         else:
-            # key already exists -> update value
             node.value = value
             return node, False
 
@@ -276,3 +275,4 @@ def main():
 if __name__ == "__main__":
 
     main()
+
