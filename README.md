@@ -1,13 +1,4 @@
 # S1-exam_project
-C‑BST (Python Version) — Binary Search Tree 
-Խնդիր չկա Chats 😎
-Հիմա քեզ տալիս եմ **ավելի մանրամասն, բայց դեռ էլեգանտ ու GitHub-friendly README**, մեկ-մեկ նախադասություններով, առանց երկարաբանելու, ու ամբողջովին paste-ready։
-
-💡 *Copy–paste it exactly into GitHub.*
-
----
-
-# S1-exam_project
 
 **BST Contact Manager (Python)** — Binary Search Tree Implementation
 
@@ -100,8 +91,6 @@ Phone/email: anna@example.com
 ## 👩🏻‍💻 Authors
 
 **Lili Baghoyan**
+
 **Vera Ghazaryan**
 
----
-
-Եթե ուզում ես even more detailed version (շատ մեծ README), կամ GitHub badges, կամ project banner, ասա՝ սարքեմ 💚
