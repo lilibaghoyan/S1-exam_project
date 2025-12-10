@@ -84,16 +84,19 @@ Added: Anna -> anna@example.com
 ```
 
 ## Example tree visualization:
+```
 
 Current Binary Search Tree:
 │       ┌── Vera
 │   ┌── Lili
 └── Anna
+     
 
-
+```
 ## 👩🏻‍💻 Authors
 
 **Lili Baghoyan** 
 
 **Vera Ghazaryan**
 
+**Ofelya Gizhlaryan**
