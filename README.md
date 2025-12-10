@@ -4,9 +4,10 @@
 
 ## 📌 Project Description
 
-This project implements a **Binary Search Tree (BST)** in Python and uses it to build a simple **Contact Manager**.
-Each contact’s **name** is stored as a key (case-insensitive), and the **phone/email** is stored as a value.
-The BST allows adding, updating, searching, deleting, and listing contacts in **alphabetical order**.
+This project implements a **Binary Search Tree (BST)** in Python and uses it to build a simple **Contact Manager**.  
+Each contact’s **name** is stored as a key (case-insensitive), and the **phone/email** is stored as a value.  
+The BST allows adding, updating, searching, deleting, and listing contacts in **alphabetical order**.  
+There is also a **tree visualizer** that prints the BST structure as ASCII art.
 
 ## 🌳 BST Features
 
@@ -23,7 +24,8 @@ The BST allows adding, updating, searching, deleting, and listing contacts in **
 
   * `size()` — number of contacts
   * `is_empty()` — checks if the tree is empty
-
+  * `print_tree()` — prints the BST visually
+  
 ## 📇 Contact Manager (CLI)
 
 Interactive menu with the following options:
@@ -36,8 +38,9 @@ Interactive menu with the following options:
 6. Show postorder traversal
 7. Show tree statistics
 8. Quit
+9. Show tree visual
 
-The program provides helpful messages for invalid input, missing names, and empty trees.
+The program provides helpful messages for invalid input, missing names, contacts not found, and empty trees.
 
 ## 🧠 What You Learn
 
@@ -56,8 +59,6 @@ Make sure Python is installed, then run:
 python bst_contacts.py
 ```
 
-Follow the on-screen menu to manage your contacts.
-
 ## 📂 Files
 
 * `bst_contacts.py` — full implementation (BST + Contact Manager)
@@ -74,23 +75,25 @@ Follow the on-screen menu to manage your contacts.
 6) Show postorder traversal
 7) Show tree statistics
 8) Quit
+9) Show tree visual
 
 Name: Anna
 Phone/email: anna@example.com
-✓ Added new contact: Anna -> anna@example.com
+Added: Anna -> anna@example.com
+
 ```
 
-## ✨ Possible Future Upgrades
+## Example tree visualization:
 
-* Save/load contacts to JSON
-* Print the tree as ASCII art
-* Export BST to Graphviz DOT format
-* Add a GUI version (Tkinter/PyQt)
-* Convert to a balanced BST (AVL / Red-Black Tree)
+Current Binary Search Tree:
+│       ┌── Vera
+│   ┌── Lili
+└── Anna
+
 
 ## 👩🏻‍💻 Authors
 
-**Lili Baghoyan**
+**Lili Baghoyan** 
 
 **Vera Ghazaryan**
 
